@@ -1,0 +1,240 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #C4FFF9;
+	font-family: sans-serif;
+}
+
+
+.mystr {
+	display: flex;
+}
+
+.fixpole {
+	background-color: #9CEAEF;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+
+}
+
+.vk {
+	font-size: 20px;
+	margin-left: 20px;
+	position: relative;
+	top: 15px;
+	text-decoration: none;
+	color: black;
+
+}
+
+.input {
+	position: relative;
+	top: 10px;
+	text-decoration: none;
+	color: black;
+	margin-left: 30px;
+	border-radius: 5px;
+	background-color: #C4FFF9;
+	border-style: none;
+	width: 200px;
+	height: 30px;
+
+}
+
+.vhod {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 850px;
+	top: 15px;
+	text-decoration: none;
+	color: black;
+	border-style: solid;
+	border-color: #FFC8DD;
+	padding: 5px;
+	background-color: #A2D2FF;
+	border-radius: 10px;
+	
+}
+
+.lefttable {
+	
+
+	width: 250px;
+	height: 700px;
+	position: relative;
+	top: 150px;
+	left: 30px;
+	background-color: #9CEAEF;
+	border-radius: 20px;
+}
+
+.info {
+	width: 700px;
+	height: 350px;
+	position: relative;
+	top: 150px;
+	margin-left: 100px;
+	background-color: #9CEAEF;
+	border-radius: 20px;
+
+}
+
+.stena {
+	width: 700px;
+	height: 600px;
+	position: absolute;
+	top: 500px;
+	left: 250px;
+	margin-top: 40px;
+	margin-left: 100px;
+	background-color: #9CEAEF;
+	border-radius: 20px;
+}
+
+.bro {
+	position: relative;
+	right: 0px;
+	margin-left: 60px;
+	top:150px;
+	width: 200px;
+	height: 250px;
+	background-color: #9CEAEF;
+	border-radius: 20px;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.lefttablepole{
+	font-size: 25px;
+	text-decoration: none;
+	color: grey;
+	margin-top: 10px;
+}
+
+.lefttablepole:hover {
+	color: #B9FBC0;
+	border-bottom-style: solid;
+	transition: 0.3s;
+}
+
+.shapka {
+	width: 700px;
+	height: 250px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	object-fit: cover;
+}
+
+.photo {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 50px;
+	top: -40px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+}
+
+.nemeprof {
+	position: relative;
+	top: -110px;
+	left: 160px;
+}
+
+.status {
+	position: relative;
+	top: -120px;
+	left: 160px;
+	color: grey;
+}
+
+.textsten {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.vsezapisi {
+	text-decoration: none;
+	color: black;
+	margin-left: 30px;
+}
+
+.vsezapisi:hover {
+	color: #EDF2FB;
+	border-bottom: solid;
+	transition: 0.3s;
+}
+
+hr {
+	width: 100%;
+	position: relative;
+	left: -10px;
+
+}
+
+.stenasqq{
+ 	display: inline-flex;
+ 	margin-left: 20px;
+
+}
+
+.avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+}
+
+.infopost{
+	position: relative;
+	top: -20px;
+
+
+}
+
+.data {
+	position: relative;
+	top: -15px;
+	font-size: 15px;
+}
+.potoavatar {
+	margin-right: 20px;
+
+}
+
+.nameava {
+	font-size: 15px;
+}
+
+.pohotpost {
+	width: 650px;
+	height: 400px;
+	object-fit: contain;
+	position: relative;
+	left: -175px;
+	top: 80px;
+	border-radius: 20px;
+}
+
+.nolike {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	left: -750px;
+	top: 500px;
+
+}
+
+.nolike:after {
+	background-color: red;
+}
